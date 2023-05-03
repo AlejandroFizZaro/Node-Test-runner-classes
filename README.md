@@ -1,9 +1,11 @@
 # Node-Test-runner-classes
 
-This testing project was run on NodeJS ( V 20 )
+Test runner module was run on NodeJS 20.
 
 This project includes:
 
   - Class testing
 
   - Class + mock testing
+  
+  - Mock calls testing ( given arguments, received result and number of calls )
