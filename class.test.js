@@ -17,7 +17,7 @@ test( 'trying mocks with classes', (t)=> {
   // Mocking the class.
   const mockTangle = mock.fn ((a, b) => {
     const myRectangle =  new Rectangle ( a, b );
-    const result = myRectangle.area
+    const result = myRectangle.area;
     return result;
   })
 
