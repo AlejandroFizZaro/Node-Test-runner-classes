@@ -7,7 +7,7 @@ export class Rectangle {
   get area() {
     return this.calcArea();
   }
-  // Método
+  // Method
   calcArea() {
     return this.height * this.width;
   }
