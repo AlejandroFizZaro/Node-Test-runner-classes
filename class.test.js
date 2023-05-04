@@ -10,7 +10,7 @@ test('my class multiply width and height', (t) => {
 test('my class return Area', (t) => {
   const myRectangle = new Rectangle(5, 5)
 
-  assert.strictEqual(myRectangle.area, 25); // => 2 * 3 === 6
+  assert.strictEqual(myRectangle.area, 25); // => 5 * 5 === 25
 });
 test( 'trying mocks with classes', (t)=> {
 
